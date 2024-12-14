@@ -49,7 +49,7 @@ def inline_kurslar():
 async def start(message: Message):
     await message.answer(
         text=f"Assalomu aleykum, hurmatli {message.from_user.first_name}, "
-             f"bu bot bizning kurslarimiz haqida ma'lumot beradi!",
+             f"bu bot bizning kurslarimiz haqida ma'lumot taqdim etadi!",
         reply_markup=UMUmiy(message.from_user.id)
     )
 
